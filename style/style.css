@@ -1,0 +1,101 @@
+
+
+/* font style from google */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,500;0,600;1,200&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header or nav section start hare */
+nav{
+    height: 125px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.logo-container{
+    display: flex;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+.logo-container img{
+
+    width: 80px;
+    height: 40px;
+}
+.logo-container p {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.nav-title{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-item{
+    display: flex;
+    gap: 20px;
+
+}
+.nav-item a{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.10rem;
+    font-weight: 500;
+}
+.fa-youtube{
+    color: red;
+}
+/* end nav bar section */
+
+
+
+
+
+
+
+
+
+/*Responsive for small device  */
+
+@media screen and (max-width: 576px) {
+
+    .nav-container  {
+        flex-direction: column;
+        
+    } 
+    .nav-container a{
+        flex-direction: column;
+        font-size: 1.24rem;
+    }
+
+}
+
+
+
+
+/* Responsive for medium device */
+
+@media screen and (min-width:577px) and (max-width:992px) { 
+    .nav-container{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
