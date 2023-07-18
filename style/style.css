@@ -131,6 +131,59 @@ nav{
 
 /* banner section end  */
 
+        /* header section end */
+
+
+/* main section start hare */
+
+.online-game-container{
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    gap: 100px;
+}
+.online-game-content h1{
+    color: #0B0223;
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+.online-title{
+    text-align: right;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-game-content p{
+    color: #534C64;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+.game-picture img{
+    width: 80%;
+    margin-left: 80px;
+}
+
+.catty-image img{
+    border-radius: 10px;
+    border: 5px solid rgb(204, 204, 204);
+    width: 30%;
+    height: 30%;
+    margin: 0;
+    position: relative;
+    bottom: 200px;
+
+}
+
+
+
+
 
 
 
@@ -169,13 +222,39 @@ nav{
 
     .banner-img img{
         padding-top: 20px;
-
         width: 100%;
 
 
     }
+    .online-game-container{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+.online-game-content p{
+    text-align: center;
+}
+
+/* .online-game-container img{
+    width: 100%;
+    margin-left: 0;
+} */
+
+.game-picture img{
+    width: 80%;
+    margin-left: 0px;
+}
+.catty-image img{
+    width: 30%;
+    height: 30%;
+    margin-top: 130px;
+    margin-right: 250px;
 
 
+
+}
 
 }
 
@@ -200,6 +279,24 @@ nav{
 
     .banner-img img{
         width: 100%;
+
     }
+
+    .online-game-container{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin-left: 0px;
+
+
 }
 
+.catty-image img{
+    width: 30%;
+    height: 30%;
+    margin-top: 60px;
+    margin-right: 400px;
+
+
+}
+}
