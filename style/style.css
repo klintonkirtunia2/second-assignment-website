@@ -235,11 +235,36 @@ nav{
     font-size: 1rem;
     font-weight: 500;
 }
+/* main game list start hare */
+
+.games-list-container{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 50px;   
+    background: #FFF;
+}
+.list-games{
+    display: flex;
+    align-items: center;
+    border: transparent;
+    padding: 20px;
 
 
+}
+.list-games p {
+    margin-left: 5px;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 400;
+}
 
 
-
+/* main game list end hare */
 
 
 
@@ -306,7 +331,7 @@ footer{
     font-weight: 300;
 }
 
-
+/* footer section end */
 
 
 
@@ -370,7 +395,16 @@ footer{
 
    
 }
-
+..games-list-container{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 50px;   
+    background: #FFF;
 
 }
 
