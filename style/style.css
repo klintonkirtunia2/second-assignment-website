@@ -131,7 +131,8 @@ nav{
 
 /* banner section end  */
 
-        /* header section end */
+/* header section end */
+
 
 
 /* main section start hare */
@@ -181,6 +182,9 @@ nav{
     bottom: 200px;
 
 }
+
+/* main section end hare */
+
 /* online game section start hare */
 
 .games-container{
@@ -235,6 +239,9 @@ nav{
     font-size: 1rem;
     font-weight: 500;
 }
+
+/* online game section end hare */
+
 /* main game list start hare */
 
 .games-list-container{
@@ -265,15 +272,6 @@ nav{
 
 
 /* main game list end hare */
-
-
-
-
-
-
-
-
-
 
 
 /* it was a footer section */
@@ -307,6 +305,11 @@ footer{
     gap: 50px;
     color: white;
     }
+
+
+
+
+
 .footer-icon li{
     margin-top: -20px;
     display: inline-flex;
@@ -387,6 +390,7 @@ footer{
 .grid-container{
 
     grid-template-columns:  1fr;
+    padding: 30px;
 }
 
 footer{
@@ -395,16 +399,10 @@ footer{
 
    
 }
-..games-list-container{
-    /* border: 1px solid red; */
-    margin-top: 50px;
-    min-height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    border-radius: 50px;   
-    background: #FFF;
+
+.list-games {
+    flex: 2 2 100%;
+}
 
 }
 
@@ -427,6 +425,7 @@ footer{
         margin-left: 0px;
     }
 
+
     .banner-img img{
         width: 100%;
 
@@ -447,6 +446,11 @@ footer{
     margin-top: 60px;
     margin-right: 400px;
 
+
+}
+
+.list-games {
+    flex: 1 0 33.33%;
 
 }
 }
