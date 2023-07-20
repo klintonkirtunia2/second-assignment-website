@@ -285,10 +285,6 @@ nav{
     font-size: 35px;
     margin-bottom: 8px;
 }
-    
-
-
-
 
 /* online game section end hare */
 
@@ -305,14 +301,28 @@ nav{
     border-radius: 50px;   
     background: #FFF;
 }
+
 .list-games{
     display: flex;
     align-items: center;
+    border: 2px solid greenyellow ;
     border: transparent;
     padding: 20px;
-
-
 }
+
+.list-games:hover{
+
+    border: 2px solid rgb(255, 29, 157) ;
+    border-radius: 50px;
+    padding: 4px;
+}
+
+.list-games:hover p{
+    color: red;
+}
+
+
+
 .list-games p {
     margin-left: 5px;
     color: #0B0223;
@@ -463,6 +473,11 @@ footer{
     flex: 2 2 100%;
 }
 
+.list-games:hover{
+    padding-right: 3px;
+    margin-bottom: -2px;
+}
+
 }
 
 
@@ -512,4 +527,9 @@ footer{
     flex: 1 0 33.33%;
 
 }
+.content{
+height:58% ;
+
+}
+
 }
